@@ -9,12 +9,12 @@ body {
 /*CSS variables*/
 :root {
     --primary-color: #FFFFFF;
-    --secondary-color: #ad7600 ;
-    --accentl-color: #396c75;
-    --accent2-color: #e8f2ee;
+    --secondary-color: #785200;
+    --accentl-color: #E7F0ED;
+    --accent2-color: #E7F0ED;
     --heading-font: 'Happy Monkey', serif;
     --paragraph-font: 'Montserrat', serif;
-    --nav-background-color: #e8f2ee;
+    --nav-background-color: #E7F0ED;
     --nav-link-color: #1C7FCC;
     --nav-hover-link-color: #151515;
     --nav-hover-background-color: #b9c1c3;
@@ -24,15 +24,9 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: var(--accent2-color)
 }
 /*headings grouping selector*/
-h1 {
-font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
         color: var(--secondary-color);
     }
