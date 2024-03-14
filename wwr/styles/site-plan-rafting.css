@@ -4,7 +4,7 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #785200;
-    --accentl-color: #E7F0ED;
+    --accent1-color: #E7F0ED;
     --accent2-color: #E7F0ED;
     
     --heading-font: 'Happy Monkey', serif;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /*header selector*/
 header {
     padding: 20px;
-    background-color: var(--accentl-color)
+    background-color: var(--accent1-color)
 }
 /*p selector*/
 p{
