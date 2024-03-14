@@ -6,40 +6,50 @@
     --secondary-color: #785200;
     --accent1-color: #E7F0ED;
     --accent2-color: #E7F0ED;
-    
+
     --heading-font: 'Happy Monkey', serif;
     --paragraph-font: 'Montserrat', serif;
-    
+
     --nav-background-color: #E7F0ED;
     --nav-link-color: #1C7FCC;
     --nav-hover-link-color: #151515;
     --nav-hover-background-color: #b9c1c3;
 }
+
 /*body selector rule*/
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
+
 /*headings grouping selector*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
-        color: var(--secondary-color);
-    }
+    color: var(--secondary-color);
+}
+
 /*header selector*/
 header {
     padding: 20px;
     background-color: var(--accent1-color)
 }
+
 /*p selector*/
-p{
+p {
     padding: 25px;
 }
+
 /*nav selector and anchor tag children*/
 
 nav {
     background-color: var(--nav-background-color);
-    font-size:1.2rem;
+    font-size: 1.2rem;
     display: flex;
 }
 
@@ -47,10 +57,11 @@ nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding:1rem;
+    padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+nav a:link,
+nav a:visited {
     color: var(--nav-link-color);
 }
 
