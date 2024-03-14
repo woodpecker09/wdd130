@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-/*body selector rule*/
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px
-    
-}
+
 /*CSS variables*/
 :root {
     --primary-color: #FFFFFF;
