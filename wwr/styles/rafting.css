@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*CSS variables*/
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #785200;
+    --accent1-color: #E7F0ED;
+    --accent2-color: #E7F0ED;
+
+    --heading-font: 'Happy Monkey', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #E7F0ED;
+    --nav-link-color: #1C7FCC;
+    --nav-hover-link-color: #151515;
+    --nav-hover-background-color: #b9c1c3;
+}
+
+div.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img{
+    width: 250px;
+    height: auto;
+    float: right;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    padding: 20px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, .5)
+}
+article{
+    position: absolute;
+    top: 300px;
+    color: #FFFFFF;
+    background-color:  rgba(0, 0, 0, .5);
+}
+
+
+/*body selector rule*/
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+/*headings grouping selector*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+/*header selector*/
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+/*p selector*/
+p {
+    font-family: var(--paragraph-font);
+    padding: 25px;
+}
+
+/*nav selector and anchor tag children*/
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+a{
+    text-decoration: none;
+}
