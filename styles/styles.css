@@ -82,7 +82,7 @@ footer{
 
 /* week 4 assignment */
 
-header, .grid, footer{
+header,  footer, .grid{
     max-width: 800px;
     margin: auto;
 }
