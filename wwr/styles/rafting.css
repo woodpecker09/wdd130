@@ -4,16 +4,16 @@
 :root {
     --primary-color: #FFFFFF;
     --secondary-color: #785200;
-    --accent1-color: #FFFFFF;
+    --accent1-color: #eafbf9;
     --accent2-color: #FFFFFF;
 
     --heading-font: 'Happy Monkey', serif;
     --paragraph-font: 'Montserrat', serif;
 
-    --nav-background-color: #FFFFFF;
+    --nav-background-color: #eafbf9;
     --nav-link-color: #151515;
-    --nav-hover-link-color: #151515;
-    --nav-hover-background-color: #b9c1c3;
+    --nav-hover-link-color: #4fdbce;
+    --nav-hover-background-color: #4e5662;
 }
 
 div.hero{
@@ -34,7 +34,7 @@ div.hero{
 .hero h1 {
     position: absolute;
     top: 30px;
-    left: 350px;
+    left: 300px;
     padding: 20px;
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -53,6 +53,9 @@ body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: var(--accent1-color);
 }
 
 /*headings grouping selector*/
@@ -138,8 +141,8 @@ section h2{
 footer {
     display: flex;
     align-items: center;
-    justify-content: end;
-
+    justify-content: center;
+    margin: 40px 0px 0px 0px ;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
 }
@@ -152,6 +155,7 @@ footer {
 .adventure{
     display: grid;
     grid-template-columns: repeat(5,1fr) ;
+    margin: 20px 0px 20px 0px;
 }
 
 
@@ -196,16 +200,12 @@ figcaption {
 }
 
 
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2em;
-    color: #333;
-    background-color: #fff;
-}
+
 
 header{
     margin: 0 auto;
-    width: 650px; 
+    width: 650px;
+    justify-content: center;
 }
 
 
@@ -215,7 +215,7 @@ form {
     /* max-width: 650px; */
     
     
-    margin: 0 auto;
+    margin: 3rem;
     
     padding: 1rem;
 
@@ -297,4 +297,247 @@ textarea{
     max-width: 240px;
     max-height: 160px;
     grid-row: 1/2;
+}
+
+
+/* trips.html */
+
+/* book this trip bottom  */
+section a{
+    margin: 1rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    grid-column: 2/3;
+}
+
+section a:hover {
+    background-color: blue;
+}
+
+
+/* section part */
+section{
+    background-color: #FFFFFF;
+}
+/* trip1 */
+.trip1 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-style: double;
+    border-color: #e52222ab;
+    margin: 10px;
+} 
+
+.trip1 img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400PX;
+}
+
+.trip1 h2{
+    grid-column: 2/3;
+}
+/* trip2 */
+.trip2 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-style: double;
+    border-color: #e52222ab;
+    margin: 10px;
+} 
+
+.trip2 img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400PX;
+}
+
+.trip2 h2{
+    grid-column: 2/3;
+}
+
+/* trip3 */
+.trip3 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-style: double;
+    border-color: #e52222ab;
+    margin: 10px;
+} 
+
+.trip3 img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400PX;
+}
+
+.trip3 h2{
+    grid-column: 2/3;
+}
+
+
+
+/* trip4 */
+.trip4 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-style: double;
+    border-color: #e52222ab;
+    margin: 10px;
+} 
+
+.trip4 img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400PX;
+}
+
+.trip4 h2{
+    grid-column: 2/3;
+}
+
+/* trip5 */
+.trip5 {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-style: double;
+    border-color: #e52222ab;
+    margin: 10px;
+} 
+
+.trip5 img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 400PX;
+}
+
+.trip5 h2{
+    grid-column: 2/3;
+}
+
+/* html */
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* table content */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+
+  }
+  
+  caption {
+    /* this allow the caption to be at the bottom of the table */
+    padding: 10px;
+    /* bold = 700 */
+    font-weight: 700;
+    /*? assigment */
+    font-style: italic;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgb(228 240 245);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(odd) {
+    background-color: rgb(251, 208, 197);
+  }
+  tbody > tr:nth-of-type(even) {
+    background-color: rgb(201, 251, 197);
+  }
+
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+/*? asiigment  */
+
+thead{
+  background-color: black;
+  color: white;
+}
+
+main{
+    display: grid;
+}
+
+footer nav a img{
+    width: 64.004px;
+    height: auto;
+}
+
+
+/* index */
+.linktrip {
+    justify-self: center;
+    padding: 30px;
+}
+
+.linktrip a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.porpuse div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #ffffff;
+    border-style:double;
+    border-color: #e52222ab ;
+}
+
+.porpuse div img{
+    max-width: 300px;
+    grid-column: 1/2;
+    justify-self:center;
+    align-self:center;
+}
+.porpuse div p{
+    grid-column: 2/3;
+}
+
+.history{
+    margin: 30px;
 }
